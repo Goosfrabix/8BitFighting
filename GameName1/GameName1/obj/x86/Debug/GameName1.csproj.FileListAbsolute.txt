@@ -1,0 +1,22 @@
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\SDL.dll
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\GameName1.exe
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\GameName1.pdb
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\Lidgren.Network.dll
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\MonoGame.Framework.dll
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\OpenTK.dll
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\Tao.Sdl.dll
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\obj\x86\Debug\GameName1.csprojResolveAssemblyReference.cache
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\obj\x86\Debug\GameName1.exe
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\obj\x86\Debug\GameName1.pdb
+c:\users\flo\documents\visual studio 2012\Projects\GameName1\GameName1\bin\WindowsGL\Debug\Content\chief_ss.png
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\obj\x86\Debug\GameName1.exe
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\obj\x86\Debug\GameName1.pdb
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\Content\chief_ss.png
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\GameName1.exe
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\GameName1.pdb
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Goosfraba\Documents\GameName1\GameName1\GameName1\obj\x86\Debug\ResolveAssemblyReference.cache
