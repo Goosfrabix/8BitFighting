@@ -37,7 +37,7 @@ namespace GameName1
         public Fighter(float x, float y)
         {
             position.X = x;
-            position.Y = y;
+            position.Y = 250;
         }
 
         public void LoadContent(ContentManager content)
@@ -83,13 +83,17 @@ namespace GameName1
         {
             if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
-                SetAnimation("PUNCH");
+                SetAnimation("BACK");
                 velocity.X -= speed / 3;
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
-                SetAnimation("PUNCH");
+                SetAnimation("FORWARD");
                 velocity.X += speed;
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad4))
+            {
+                SetAnimation("PUNCH");
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.Space))
             {
@@ -111,7 +115,7 @@ namespace GameName1
 
             velocity *= drag;
             position += velocity;
-            if (position.Y >= 200)
+            if (position.Y >= 250)
                 {
                     onground = true;
                 }
@@ -122,10 +126,16 @@ namespace GameName1
                 switch (animation)
                 {
                     case "IDLE":
-                        SetFrames(0, 0);
+                        SetFrames(1, 0);
                         break;
                     case "PUNCH":
-                        SetFrames(1, 1);
+                        SetFrames(2, 0);
+                        break;
+                    case "BACK":
+                        SetFrames(0, 0);
+                        break;
+                    case "FORWARD":
+                        SetFrames(0, 0);
                         break;
                 }
             }
