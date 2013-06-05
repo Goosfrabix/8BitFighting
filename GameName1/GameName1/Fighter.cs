@@ -12,12 +12,12 @@ namespace GameName1
     class Fighter
     {
         private float speed = 1.8f;
-        private float jump = -10.0f;
+        private float jump = -15.0f;
         private float drag = 0.8f;
         public Vector2 velocity;
         private Texture2D image;
         public Vector2 position;
-        public Vector2 gravity = new Vector2(0, 2);
+        public Vector2 gravity = new Vector2(0, 1);
         bool onground = true;
 
         // the elapsed amount of time the frame has been shown for
@@ -30,7 +30,7 @@ namespace GameName1
         int totalFrames = 2;
         // define the size of our animation frame
         int frameHeight = 88;
-        int frameWidth = 80;
+        int frameWidth = 90;
         int beginFrame;
         string currentAnimation;
 
@@ -84,7 +84,7 @@ namespace GameName1
             if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
                 SetAnimation("BACK");
-                velocity.X -= speed / 3;
+                velocity.X -= speed / 2;
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
@@ -99,7 +99,8 @@ namespace GameName1
             {
                 if (onground == true)
                 {
-                    velocity.Y += jump * time;
+                    SetAnimation("JUMP");
+                    velocity.Y += jump;
                     onground = false;
                 }
             }
@@ -137,6 +138,9 @@ namespace GameName1
                         break;
                     case "FORWARD":
                         SetFrames(0, 0);
+                        break;
+                    case "JUMP":
+                        SetFrames(3, 0);
                         break;
                 }
             }
