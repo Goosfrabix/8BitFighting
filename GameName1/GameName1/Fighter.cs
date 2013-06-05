@@ -12,7 +12,7 @@ namespace GameName1
     class Fighter
     {
         private float speed = 1.8f;
-        private float jump = -5.0f;
+        private float jump = -10.0f;
         private float drag = 0.8f;
         public Vector2 velocity;
         private Texture2D image;
@@ -99,7 +99,7 @@ namespace GameName1
             {
                 if (onground == true)
                 {
-                    velocity.Y += jump;
+                    velocity.Y += jump * time;
                     onground = false;
                 }
             }
@@ -115,6 +115,7 @@ namespace GameName1
 
             velocity *= drag;
             position += velocity;
+
             if (position.Y >= 250)
                 {
                     onground = true;
